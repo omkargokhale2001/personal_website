@@ -1,0 +1,140 @@
+p, h1, h2, h3, h4, h5, h6, button {
+  font-family: "Roboto", serif;
+}
+
+body {
+  background-color: #f5f5f9;
+  background-size: cover;
+  width: auto; 
+  overflow-x: hidden;
+  font-family: "Roboto", serif;
+  margin: 0px;
+}
+h2 {
+  font-size: 200px;
+  font-weight: 700;
+  color: black;
+}
+
+.footer-distributeds {
+  background-color: black !important;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+  bottom:0;
+  position:fixed;
+}
+
+#logo {
+  width: 200px;
+}
+
+
+/* Padding inside Card */
+.container {
+  padding: 2px 16px;
+  padding-top: 20px;
+}
+
+
+p {
+    font-size: 18px;
+    text-align: center;
+    vertical-align:top;
+}
+
+#img_1 {
+    width: 300px;
+    height: 150px;
+}
+
+#navbar{
+    background: #343a40;
+}
+
+#navbar a{
+color: #ff8c00;
+}
+
+#navbar li{
+margin-right: 5px;
+}
+
+#logo {
+  width: 200px;
+}
+
+
+/* Icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #ff8c00;
+}
+
+.fa-twitter {
+  color: #ff8c00;
+}
+
+.fa-instagram {
+  color: #ff8c00;
+}
+
+.fa-linkedin {
+  color: #ff8c00;
+}
+
+.fa-github {
+  color: #ff8c00;
+}
+
+/* Card Container */
+.notification-card {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+}
+
+/* Content in the Center */
+.notification-content {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #000; /* Black text */
+}
+
+/* Date in the Lower Right Corner */
+.notification-date {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #777;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+} 
+
+.navbar-nav {
+  margin-left: 1rem;
+}
